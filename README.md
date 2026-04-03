@@ -57,10 +57,14 @@
 
 ## 📸 Sneak Peek
 
-*(Add your animated GIFs or screenshots here)*
+Here is a glimpse of the platform in action:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DishantSaini55/TypePulse/main/public/placeholder.gif" alt="App Demo GIF" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <h3>Organization Boards</h3>
+  <img src="https://raw.githubusercontent.com/DishantSaini55/TypePulse/main/public/boards.png" alt="Organization Boards Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;" />
+
+  <h3>Member Management</h3>
+  <img src="https://raw.githubusercontent.com/DishantSaini55/TypePulse/main/public/members.png" alt="Organization Members Management" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 </div>
 
 ---
