@@ -1,25 +1,52 @@
-## This App is a kind of trello clone.
+# TypePulse
+The all-in-one platform for project management, task tracking, and collaboration. Created by Dishant.
 
-[live]()
+**TypePulse** is a robust task management application designed to bring your team together. It features drag-and-drop boards, organization workspaces, authentication, and secure databases.
 
-### Technology used
+### ? Features
+- **Workspaces & Organizations:** Create teams and invite members effortlessly.
+- **Interactive Boards:** Drag-and-drop lists and tasks for a visual workflow.
+- **Authentication:** Secure login and registration powered by Clerk.
+- **Database:** Fast PostgreSQL connection with Prisma and Supabase.
+- **Tech Stack:** Built with Next.js 14, TailwindCSS, TypeScript, and modern React components.
 
-- Nextjs
-- TailwindCSS
-- ClearkJs ( For Authentication & Organization )
-- Prisma Client
+## ?? Getting Started
 
-## To setup app locally
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) and \pnpm\ installed on your machine.
 
-1. Clone the repo locally `gh repo clone DishantSaini55/TypePulse `
-2. Pnpm install ( Intall dependency )
-3. Checkout `.env.example` file and all the urls
-   1. Get Unsplash key [link](https://unsplash.com/developers)
-   2. Get Cleark keys [link](https://dashboard.clerk.com/)
-   3. Database url use any sql provider like neon, planet scale etc.
-   4. Genrate STRIPE KEYS
-4. `npx prisma db push`
-5. `npx prisma generate`
-6. `npm run dev`
+### Installation
 
-This will start your server locally on localhost 3000
+1. Clone the repository locally:
+   \\\ash
+   git clone https://github.com/DishantSaini55/TypePulse.git
+   cd TypePulse
+   \\\
+
+2. Install the dependencies:
+   \\\ash
+   pnpm install
+   \\\
+
+3. Set up your Environment Variables:
+   Rename \.env.sample\ to \.env\ and add your API keys:
+   - **Clerk** (Authentication)
+   - **Unsplash** (Board background images)
+   - **Supabase** (PostgreSQL Database connection with connection pooling \?pgbouncer=true\)
+   - **Stripe** (Optional for Pro upgrades)
+
+4. Initialize the Database:
+   \\\ash
+   pnpm prisma generate
+   pnpm prisma db push
+   \\\
+
+5. Start the development server:
+   \\\ash
+   pnpm dev
+   \\\
+
+Navigate to [http://localhost:3000](http://localhost:3000) to see your app running locally!
+
+### ?? Deployment
+Easily deploy this project on [Vercel](https://vercel.com/) by connecting your GitHub repository and adding your environment variables.
