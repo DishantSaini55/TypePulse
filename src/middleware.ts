@@ -8,8 +8,8 @@ export default authMiddleware({
     "/pricing",
     "/contact",
     "/about",
-    "/login",
-    "/signup",
+    "/sign-in",
+    "/sign-up",
     "/forgot-password",
     "/reset-password",
     "/organization/[orgId]",
@@ -30,7 +30,8 @@ export default authMiddleware({
     }
 
     if (auth.userId && !auth.orgId && req.nextUrl.pathname !== "/select-org") {
-      return NextResponse.redirect("/select-org");
+      const orgSelection = new URL("/select-org", req.url);
+      return NextResponse.redirect(orgSelection.toString());
     }
   },
 });
