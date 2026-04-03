@@ -76,7 +76,7 @@ const Navbar = () => {
           className="font-medium text-textSecondary flex items-center cursor-pointer gap-2"
         >
           <Handshake color="blue" fontWeight={24} />
-          Collab{" "}
+          TypePulse{" "}
         </Link>
       </div>
 

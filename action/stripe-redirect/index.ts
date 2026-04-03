@@ -51,7 +51,7 @@ const handler = async (data: InputType): Promise<OutputType> => {
             price_data: {
               currency: "USD",
               product_data: {
-                name: "Collab Pro",
+                name: "TypePulse Pro",
                 description: "Unlimited boards within your organization",
               },
               unit_amount: 4900,

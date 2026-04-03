@@ -20,7 +20,7 @@ const Button = ({ name, icon }: { name: string; icon?: any }) => {
 const TeamCard = () => {
   return (
     <CardWrapper>
-      <Button name="Invite People to Collab" icon={<Plus />} />
+      <Button name="Invite People to TypePulse" icon={<Plus />} />
       <Button name="Create a Team" icon={<UsersRound />} />
 
       <div className="w-full border-b-2 border-tertiary"></div>

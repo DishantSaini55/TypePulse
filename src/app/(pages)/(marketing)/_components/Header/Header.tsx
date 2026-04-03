@@ -11,7 +11,7 @@ const Header = () => {
         className="font-medium text-textSecondary flex items-center cursor-pointer gap-2 mr-6"
       >
         <Handshake color="blue " fontWeight={24} />
-        <span className="font-semibold">Collab</span>
+        <span className="font-semibold">TypePulse</span>
       </Link>
 
       <div>
@@ -23,7 +23,7 @@ const Header = () => {
           <Button variant={"outline"}>Sign In</Button>
         </Link>
         <Link href="/sign-up">
-          <Button>Get Collab for Free</Button>
+          <Button>Get TypePulse for Free</Button>
         </Link>
       </div>
     </header>

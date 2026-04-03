@@ -1,5 +1,6 @@
 {
-  "name": "jira-clone",
+  "name": "typepulse",
+  "author": "Dishant",
   "version": "0.1.0",
   "private": true,
   "scripts": {

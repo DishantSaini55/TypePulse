@@ -6,7 +6,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import Image from "next/image";
 
 // export const metadata: Metadata = {
-//   title: 'Your Work || Collab',
+//   title: 'Your Work || TypePulse',
 
 // };
 // const metadata = {

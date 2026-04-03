@@ -8,14 +8,14 @@ const helpItems = [
         link: '/help/getting-started'
     },
     {
-        name: 'Find out more about Collab',
+        name: 'Find out more about TypePulse',
         link: '/help/faqs'
     },
     {
         name: 'Browse complete documentation',
         link: '/help/documentation'
     },{
-        name:"Learn about Collab's security",
+        name:"Learn about TypePulse's security",
         link: '/help/security'
     },{
         name:"Ask our community forums",
@@ -64,7 +64,7 @@ const Help = ({setSelectedNavOption}:any) => {
 
                 <div className='flex gap-4 text-textPrimary font-medium'>
 
-                    <div className='hover:underline cursor-pointer'>About Collab</div>
+                    <div className='hover:underline cursor-pointer'>About TypePulse</div>
                     <div className='hover:underline cursor-pointer'>Terms of use</div>
                     <div className='hover:underline cursor-pointer'>Privacy policy</div>
                 </div>

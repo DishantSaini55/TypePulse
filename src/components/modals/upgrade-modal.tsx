@@ -33,7 +33,7 @@ export const UpgradeModal = () => {
         </div>
 
         <div className="text-neutral-700 mx-auto space-y-6 p-6">
-          <h2 className="font-semibold">Upgrade to Collab Pro Today!</h2>
+          <h2 className="font-semibold">Upgrade to TypePulse Pro Today!</h2>
           <p className="text-xs font-semibold text-neutral-600">
             Explore the best of Taskify
           </p>

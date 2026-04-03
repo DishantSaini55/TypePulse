@@ -9,7 +9,7 @@ const ComponentPage = () => {
         <section className="grid items-center gap-6 text-center sm:gap-8 lg:grid-cols-2 xl:gap-12">
           <div className="">
             <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-              Bring your team together with Collab
+              Bring your team together with TypePulse
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
               The all-in-one platform for project management, task tracking, and
