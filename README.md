@@ -1,6 +1,6 @@
 ## This App is a kind of trello clone.
 
-[live](https://collab-neon.vercel.app)
+[live]()
 
 ### Technology used
 
@@ -11,7 +11,7 @@
 
 ## To setup app locally
 
-1. Clone the repo locally `gh repo clone yagyaraj234/Collab `
+1. Clone the repo locally `gh repo clone DishantSaini55/TypePulse `
 2. Pnpm install ( Intall dependency )
 3. Checkout `.env.example` file and all the urls
    1. Get Unsplash key [link](https://unsplash.com/developers)
